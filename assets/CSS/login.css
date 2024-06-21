@@ -1,0 +1,65 @@
+body {
+  background-color: #113b8f;
+}
+
+.login-container {
+  width: 400px; /* Aumentando a largura */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #FF731D;
+  text-align: center; /* Centralizando o conteúdo */
+}
+
+.logo-container {
+  margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.logo-container img {
+  max-width: 50%; /* Garantindo que a imagem não ultrapasse o contêiner */
+}
+
+.login-title {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  color: #113b8f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FF731D;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #ff944d;
+}
+
+.forgot-password,
+.register-link {
+  text-align: center;
+}
+
+.forgot-password a,
+.register-link a {
+  color: #113b8f;
+  text-decoration: none;
+}

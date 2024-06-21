@@ -1,0 +1,188 @@
+body {
+    background-color: #113b8f;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.produtos-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #FF731D;
+    border: 1px solid #113b8f;
+}
+
+.produtos-table th, .produtos-table td {
+    border-right: 1px solid #113b8f;
+    border-bottom: 1px solid #113b8f;
+    padding: 12px;
+    text-align: left;
+    color: #fff;
+    background-color: #FF731D;
+    width: calc(100% / 6);
+}
+
+.produtos-table th {
+    font-weight: bold;
+    border-top: 1px solid #113b8f;
+}
+
+.produtos-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.produtos-table tbody tr {
+    background-color: #113b8f;
+}
+
+.produtos-table tbody tr:hover {
+    background-color: #FFA44D;
+}
+
+.produtos-table img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.produtos-table .acao-col {
+    text-align: center;
+    width: 100%;
+}
+
+.produtos-table input[type="number"] {
+    width: calc(100% - 26px); /* 26px é a soma do padding horizontal dos botões */
+    padding: 8px;
+    border-radius: 20px; /* Borda redonda */
+    border: 1px solid #FF731D; /* Cor da borda igual à dos botões */
+    background-color: #FFA44D; /* Cor de fundo */
+    margin-bottom: 10px; /* Espaço abaixo do input */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.produtos-table input[type="number"]:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: 0 0 0 2px #FF731D; /* Adiciona uma sombra ao focar */
+}
+
+.produtos-table input[type="number"]::placeholder {
+    color: #fff; /* Cor do texto de placeholder */
+}
+
+.produtos-table input[type="number"]::-webkit-outer-spin-button,
+.produtos-table input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Remove as setas de incremento/decremento no Chrome */
+    appearance: none; /* Remove as setas de incremento/decremento no Firefox */
+    margin: 0; /* Remove o espaçamento entre o número e as bordas */
+    background-color: #FFA44D; /* Cor de fundo */
+    border: none; /* Remove a borda */
+}
+
+.produtos-table input[type="number"]::-webkit-input-placeholder {
+    color: #fff; /* Cor do texto de placeholder */
+}
+
+.produtos-table input[type="number"]:hover::placeholder {
+    color: #ccc; /* Cor do texto de placeholder ao passar o mouse */
+}
+
+.produtos-table input[type="number"]:focus::placeholder {
+    color: transparent; /* Esconde o texto de placeholder ao focar */
+}
+
+.produtos-table input[type="number"]::-moz-placeholder {
+    color: #fff; /* Cor do texto de placeholder no Firefox */
+}
+
+.produtos-table input[type="number"]:hover::-moz-placeholder {
+    color: #ccc; /* Cor do texto de placeholder no Firefox ao passar o mouse */
+}
+
+.produtos-table input[type="number"]:focus::-moz-placeholder {
+    color: transparent; /* Esconde o texto de placeholder no Firefox ao focar */
+}
+
+.produtos-table input[type="number"]::-ms-input-placeholder {
+    color: #fff; /* Cor do texto de placeholder no IE */
+}
+
+.produtos-table input[type="number"]:hover::-ms-input-placeholder {
+    color: #ccc; /* Cor do texto de placeholder no IE ao passar o mouse */
+}
+
+.produtos-table input[type="number"]:focus::-ms-input-placeholder {
+    color: transparent; /* Esconde o texto de placeholder no IE ao focar */
+    border: 1px solid #113b8f; /* Adiciona a linha em volta da borda */
+}
+
+.produtos-table input[type="submit"] {
+    width: 100%;
+    background-color: #FF731D;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid #113b8f;
+    border-radius: 20px; /* Borda redonda */
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Adiciona espaço entre os botões */
+}
+
+.produtos-table input[type="submit"]:hover {
+    background-color: #ff9024;
+}
+
+/* Estilos específicos para os botões de ação */
+.alterar-button, .remover-button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background-color: #FF731D;
+    color: white;
+    border: 1px solid #113b8f;
+    border-radius: 20px; /* Borda redonda */
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alterar-button:hover, .remover-button:hover {
+    background-color: #ff9024;
+}
+
+/* Estilos específicos para a coluna de quantidade */
+.quantidade-col {
+    width: calc(100% / 6); /* Definindo o mesmo tamanho que as outras colunas */
+}
+
+.voltar-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #FF731D;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #E6600F;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+.voltar-button:hover {
+    background-color: #E6600F;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: #113b8f;
+}
+
+.register-container {
+    width: 400px; /* Aumentando a largura */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FF731D;
+    text-align: center; /* Centralizando o conteúdo */
+}
+
+.logo-container {
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.logo-container img {
+    max-width: 50%; /* Garantindo que a imagem não ultrapasse o contêiner */
+}
+
+.register-title {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    color: #113b8f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicionando sombra */
+}
+
+.register-form {
+    margin-bottom: 20px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="date"],
+.register-form input[type="password"],
+.register-form input[type="email"],
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.register-form select {
+    padding: 12px; /* Aumentando o padding para o select */
+    height: auto; /* Ajusta a altura para conteúdo */
+}
+
+.register-form input[type="submit"],
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF731D;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover,
+.btn-primary:hover {
+    background-color: #ff944d;
+}

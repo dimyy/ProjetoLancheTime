@@ -1,0 +1,34 @@
+Table: carrinho
+Columns:
+id int(11) AI PK 
+usuario_id int(11) 
+produto_id int(11) 
+quantidade int(11)
+
+
+Table: estoque
+Columns:
+id int(11) AI PK 
+nome varchar(255) 
+tipo enum('comida','bebida','doce') 
+quantidade int(11) 
+preco decimal(10,2) 
+imagem varchar(255)
+
+Table: pedidos
+Columns:
+id int(11) AI PK 
+usuario_id int(11) 
+total decimal(10,2) 
+status varchar(50) 
+data_pedido timestamp
+
+table: users
+
+Columns:
+id int(11) AI PK 
+usuario varchar(255) 
+email varchar(255) 
+tipo varchar(50) 
+turno varchar(50) 
+senha varchar(255)

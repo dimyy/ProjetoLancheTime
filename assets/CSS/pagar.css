@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-title {
+    text-align: center;
+    color: #333;
+}
+
+.qr-code-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 200px; /* Ajuste o tamanho do QR code conforme necessário */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.pix-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pix-key {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pix-instructions {
+    font-size: 14px;
+    color: #666;
+}
+
+.voltar-button {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.voltar-button:hover {
+    background-color: #0056b3;
+}

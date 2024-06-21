@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #FF731D;
+    text-align: center;
+}
+
+.produtos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.produtos-table th, .produtos-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.produtos-table th {
+    background-color: #FF731D;
+    color: white;
+}
+
+.produtos-table td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+}
+
+.produtos-table td:nth-child(3),
+.produtos-table td:nth-child(4),
+.produtos-table td:nth-child(5) {
+    text-align: center;
+}
+
+.produtos-table input[type='number'] {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #FF731D;
+}
+
+.produtos-table input[type='checkbox'] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+input[type='submit'] {
+    display: block;
+    margin: 20px auto;
+    background-color: #FF731D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #5e5252;
+}
